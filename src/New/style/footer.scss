@@ -1,0 +1,64 @@
+.footer {
+    background: linear-gradient(to right, (rgba(16, 24, 65, 0.9), rgba(35, 17, 85, 0.9))),
+        url('../images/home-bg.webp') no-repeat center / cover;
+
+    .social-section {
+        display: flex;
+        justify-content: end;
+
+        .icon {
+            color: white;
+            margin: 0px 10px;
+            height: 25px;
+            width: 25px;
+            cursor: pointer;
+        }
+    }
+
+
+    @media screen and (max-width:1000px) {
+        .right {
+            font-size: 12px;
+        }
+
+        .privacy-policy {
+            font-size: 12px;
+        }
+
+        .terms-condition {
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width:400px) {
+
+        .right {
+            font-size: 8px;
+        }
+
+        .privacy-policy {
+            font-size: 8px;
+        }
+
+        .terms-condition {
+            font-size: 8px;
+        }
+        .footer-paragraph {
+
+            p {
+                font-size: 14px;
+
+            }
+        }
+
+        .social-section {
+
+            .icon {
+                color: white;
+                margin: 0px 5px;
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
+}

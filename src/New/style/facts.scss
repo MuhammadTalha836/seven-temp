@@ -1,0 +1,39 @@
+// for background image
+.facts {
+    min-height: 80vh;
+    width: 100%;
+    background: linear-gradient(to right,(rgba(21,101,192, 0.9), rgba(185,43,39, 0.9))),
+    url('../images/card-img-3.webp') no-repeat center / cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12vh;
+
+    .fact-content{
+
+        .line{
+            height: 4px;
+            background-color: red;
+            border: none;
+            width: 250px;
+        }
+
+        p{
+            color: #0096c7;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            #cardCenter{
+                margin:auto
+            }
+        }
+    }
+}

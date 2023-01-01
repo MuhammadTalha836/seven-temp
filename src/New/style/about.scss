@@ -1,0 +1,18 @@
+.about{
+    padding-top: 12vh;
+    .about-cards {
+        .card {
+            width: 18rem;
+
+                .line {
+                    height: 4px;
+                    background-color: #ff0303;
+                    border: none;
+                }
+
+            p {
+                color: #0096c7;
+            }
+        }
+    }
+}
